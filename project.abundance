@@ -5246,11 +5246,12 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "z-axis degrees",
-                  "ioValue": 180
+                  "ioValue": 270
                 }
               ]
             },
