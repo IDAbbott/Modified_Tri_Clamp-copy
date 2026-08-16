@@ -5948,14 +5948,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "Modified_Tri_Clamp-copy",
-          "currentEquation": "Modified_Tri_Clamp-copy"
+          "ioValue": "Tri_Clamp_Insert",
+          "currentEquation": "Tri_Clamp_Insert"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "Modified_Tri_Clamp-copy"
+      "partName": "Tri_Clamp_Insert"
     }
   ],
   "allConnectors": [
