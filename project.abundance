@@ -5074,7 +5074,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 23
+              "ioValue": 30
             }
           ]
         },
@@ -5147,7 +5147,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-11.5-0-0-0",
+                "geometry": "move-circle-15-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -5389,7 +5389,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -5458,7 +5459,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-circle-3.5-0-0-0",
+                "geometry": "move-circle-4.5-0-0-0",
                 "dimension": "2D",
                 "tags": [],
                 "plane": {
@@ -5589,7 +5590,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "rotate-move-cut-#203c9ec167afe8a7f924a315d0f75c8e-32-0-0-0-0-90",
+                "geometry": "rotate-move-cut-#6d8c27733d36093ed8e75de5626caa2f-32-0-0-0-0-90",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -5616,7 +5617,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "rotate-move-cut-#203c9ec167afe8a7f924a315d0f75c8e-32-0-0-0-0-210",
+                "geometry": "rotate-move-cut-#6d8c27733d36093ed8e75de5626caa2f-32-0-0-0-0-210",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -5643,7 +5644,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "rotate-move-cut-#203c9ec167afe8a7f924a315d0f75c8e-32-0-0-0-0-330",
+                "geometry": "rotate-move-cut-#6d8c27733d36093ed8e75de5626caa2f-32-0-0-0-0-330",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -5679,7 +5680,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-circle-11.5-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0-0-5.5",
+                "geometry": "move-extrude-circle-15-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-1-0-0-5.5",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -5706,7 +5707,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-rotate-loft-move-circle-11.5-0-0-0-move-circle-0.05-0-0-0-{\"origin\":[0,0,5.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---180-0-0-0-0-12",
+                "geometry": "move-rotate-loft-move-circle-15-0-0-0-move-circle-0.05-0-0-0-{\"origin\":[0,0,5.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}---180-0-0-0-0-12",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -5733,7 +5734,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "loft-move-circle-11.5-0-0-0-move-circle-0.05-0-0-0-{\"origin\":[0,0,5.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
+                "geometry": "loft-move-circle-15-0-0-0-move-circle-0.05-0-0-0-{\"origin\":[0,0,5.5],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-{\"origin\":[0,0,1],\"xDir\":[1,0,0],\"normal\":[0,0,1]}--",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -5762,8 +5763,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.6790730337078652,
-          "y": 0.5654008438818565,
+          "x": 0.6840363937138131,
+          "y": 0.5590717299578059,
           "uniqueID": "id-3888",
           "ioValues": [
             {
@@ -5784,7 +5785,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 7
+              "ioValue": 9
             }
           ]
         }
