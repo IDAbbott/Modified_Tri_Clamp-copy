@@ -2,7 +2,7 @@
 
 # Modified_Tri_Clamp-copy
 
-![](/project.svg)
+![](/project.png)
 
 
 
