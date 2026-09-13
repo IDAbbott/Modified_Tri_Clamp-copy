@@ -45,7 +45,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-#8d172e981af2116d0a141d1a54782542",
+            "geometry": "cut-#62360c7c56e75a47e0d5cc4eadeef64c",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -2437,7 +2437,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -10
+              "ioValue": 26
             },
             {
               "name": "yDist",
