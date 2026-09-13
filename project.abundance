@@ -1444,7 +1444,7 @@
             {
               "atomType": "Move",
               "x": 0.3,
-              "y": 0.7,
+              "y": 0.6,
               "uniqueID": "id-4117",
               "ioValues": [
                 {
@@ -1453,15 +1453,16 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 0
+                  "ioValue": -15,
+                  "currentEquation": "-15"
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0
+                  "ioValue": 10
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 2
+                  "ioValue": 8
                 }
               ]
             },
@@ -1491,7 +1492,7 @@
             },
             {
               "atomType": "Move",
-              "x": 0.5,
+              "x": 0.6,
               "y": 0.6,
               "uniqueID": "id-4120",
               "ioValues": [
@@ -1525,7 +1526,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 8
+                  "ioValue": 8,
+                  "currentEquation": "8"
                 }
               ]
             },
@@ -1600,30 +1602,6 @@
             },
             {
               "atomType": "Rotate",
-              "x": 0.3,
-              "y": 0.7,
-              "uniqueID": "id-7232",
-              "ioValues": [
-                {
-                  "name": "geometry",
-                  "ioValue": "__GEOMETRY_INPUT__"
-                },
-                {
-                  "name": "x-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "y-axis degrees",
-                  "ioValue": 0
-                },
-                {
-                  "name": "z-axis degrees",
-                  "ioValue": 0
-                }
-              ]
-            },
-            {
-              "atomType": "Rotate",
               "x": 0.1,
               "y": 0.8,
               "uniqueID": "id-7238",
@@ -1634,15 +1612,40 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 0,
+                  "currentEquation": "0"
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 0
+                  "ioValue": 90
                 },
                 {
                   "name": "z-axis degrees",
                   "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.3,
+              "y": 0.8,
+              "uniqueID": "id-7244",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": -15
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": -10
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 8
                 }
               ]
             }
@@ -1656,17 +1659,7 @@
             {
               "ap2Name": "geometry",
               "ap1ID": "id-4115",
-              "ap2ID": "id-7228"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-4115",
               "ap2ID": "id-7238"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-4117",
-              "ap2ID": "id-7232"
             },
             {
               "ap2Name": "geometry",
@@ -1700,8 +1693,13 @@
             },
             {
               "ap2Name": "geometry",
-              "ap1ID": "id-7232",
-              "ap2ID": "id-6690"
+              "ap1ID": "id-7228",
+              "ap2ID": "id-7244"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-7238",
+              "ap2ID": "id-7228"
             }
           ],
           "fileTypeVersion": 1
