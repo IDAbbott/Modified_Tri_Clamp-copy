@@ -2086,7 +2086,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -15
+                  "ioValue": -10
                 },
                 {
                   "name": "yDist",
@@ -2123,11 +2123,12 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 24.5
+                  "ioValue": 20
                 },
                 {
                   "name": "y length",
-                  "ioValue": 19
+                  "ioValue": 19,
+                  "currentEquation": "19"
                 }
               ]
             },
@@ -2143,7 +2144,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 25
+                  "ioValue": 20
                 }
               ]
             },
@@ -2204,7 +2205,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "extrude-rectangle-24.5-19-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7.5",
+                    "geometry": "extrude-rectangle-20-19-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-7.5",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -2231,7 +2232,7 @@
                 {
                   "name": "Shape 2",
                   "ioValue": {
-                    "geometry": "move-extrude-rotate-circle-3.75-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-25--15-9.5-4",
+                    "geometry": "move-extrude-rotate-circle-3.75-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-20--10-9.5-4",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2258,7 +2259,7 @@
                 {
                   "name": "Shape 3",
                   "ioValue": {
-                    "geometry": "move-extrude-rotate-circle-3.75-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-25--10--9.5-4",
+                    "geometry": "move-extrude-rotate-circle-3.75-0-0-0-{\"origin\":[0,0,0],\"xDir\":[1.1102230246251565e-16,0,-1],\"normal\":[1,0,1.1102230246251565e-16]}-20--10--9.5-4",
                     "dimension": "3D",
                     "tags": [],
                     "plane": {
@@ -2301,7 +2302,7 @@
             {
               "atomType": "Move",
               "x": 0.9,
-              "y": 0.5,
+              "y": 0.3,
               "uniqueID": "id-7310",
               "ioValues": [
                 {
