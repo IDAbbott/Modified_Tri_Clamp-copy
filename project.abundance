@@ -45,7 +45,7 @@
         {
           "name": "Shape 1",
           "ioValue": {
-            "geometry": "cut-#652a881e9ff985b2efd1fd816c72f969",
+            "geometry": "cut-#aa5709de225ce71c98344b039b7d28de",
             "dimension": "3D",
             "tags": [],
             "plane": {
@@ -427,7 +427,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-30-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-90",
+                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-31-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-90",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -454,7 +454,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-30-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-210",
+                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-31-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-210",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -481,7 +481,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-30-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-330",
+                "geometry": "rotate-move-fuse-assemblyFuse-cut-move-#0210150072e56d50d6e91074390c0ad7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-circle-10-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-6-0-0-7-move-extrude-rectangle-31-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2-32-0-0-0-0-330",
                 "tags": [],
                 "bom": [],
                 "plane": {
@@ -556,7 +556,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-30-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2",
+                "geometry": "move-extrude-rectangle-31-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -1641,7 +1641,7 @@
                 {
                   "name": "Shape 1",
                   "ioValue": {
-                    "geometry": "move-extrude-rectangle-30-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2",
+                    "geometry": "move-extrude-rectangle-31-30-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-8-0-0-2",
                     "dimension": "3D",
                     "plane": {
                       "origin": [
@@ -1703,11 +1703,12 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 30
+                  "ioValue": 31
                 },
                 {
                   "name": "y length",
-                  "ioValue": 30
+                  "ioValue": 30,
+                  "currentEquation": "30"
                 }
               ]
             },
