@@ -1694,6 +1694,22 @@
                 }
               ],
               "unionType": "Fusion"
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.1,
+              "y": 0.3,
+              "uniqueID": "id-6686",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 30
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 30
+                }
+              ]
             }
           ],
           "allConnectors": [
@@ -1751,7 +1767,8 @@
               "ap2Name": "number or geometry",
               "ap1ID": "id-4122",
               "ap2ID": "id-4112"
-            }
+            },
+            null
           ],
           "fileTypeVersion": 1
         },
@@ -1987,8 +2004,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.2,
-          "y": 0.2,
+          "x": 0.5,
+          "y": 0.1,
           "uniqueID": "id-6139",
           "ioValues": [
             {
@@ -2034,6 +2051,22 @@
             {
               "name": "zDist",
               "ioValue": 2
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.2,
+          "y": 0.2,
+          "uniqueID": "id-6682",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 29.5
+            },
+            {
+              "name": "y length",
+              "ioValue": 29.5
             }
           ]
         },
@@ -2239,11 +2272,6 @@
         },
         {
           "ap2Name": "geometry",
-          "ap1ID": "id-6139",
-          "ap2ID": "id-6146"
-        },
-        {
-          "ap2Name": "geometry",
           "ap1ID": "id-6142",
           "ap2ID": "id-5035"
         },
@@ -2296,6 +2324,11 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-4110",
           "ap2ID": "id-3930"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-6682",
+          "ap2ID": "id-6146"
         }
       ],
       "fileTypeVersion": 1
