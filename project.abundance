@@ -18,8 +18,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
+          "ioValue": "STL",
+          "currentEquation": "STL"
         },
         {
           "name": "Resolution (dpi)",
@@ -31,7 +31,7 @@
           "currentEquation": "Modified_Tri_Clamp"
         }
       ],
-      "type": null,
+      "type": "STL",
       "resolution": 96,
       "importIndex": 0,
       "partName": "Modified_Tri_Clamp"
@@ -67,6 +67,155 @@
             },
             "color": "#aad7f2",
             "bom": []
+          }
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": {
+            "geometry": [
+              {
+                "geometry": "rotate-cut-#f71f98b2ddb052d82a5d3343de6e5f7d-0-0-0",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    60.4999999,
+                    -17.5000001,
+                    -1e-7
+                  ],
+                  "max": [
+                    121.5000001,
+                    17.5000001,
+                    12.0000001
+                  ]
+                }
+              },
+              {
+                "geometry": "rotate-cut-#f71f98b2ddb052d82a5d3343de6e5f7d-0-0-120",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    -69.50000009999997,
+                    44.894536828958536,
+                    -1e-7
+                  ],
+                  "max": [
+                    -17.2596188432334,
+                    107.56664209358162,
+                    12.0000001
+                  ]
+                }
+              },
+              {
+                "geometry": "rotate-cut-#f71f98b2ddb052d82a5d3343de6e5f7d-0-0-240",
+                "tags": [],
+                "bom": [],
+                "plane": {
+                  "origin": [
+                    0,
+                    0,
+                    0
+                  ],
+                  "xDir": [
+                    1,
+                    0,
+                    0
+                  ],
+                  "normal": [
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                "color": "#aad7f2",
+                "dimension": "3D",
+                "boundingBox": {
+                  "min": [
+                    -69.50000010000004,
+                    -107.56664209358159,
+                    -1e-7
+                  ],
+                  "max": [
+                    -17.25961884323345,
+                    -44.89453682895852,
+                    12.0000001
+                  ]
+                }
+              }
+            ],
+            "plane": {
+              "origin": [
+                0,
+                0,
+                0
+              ],
+              "xDir": [
+                1,
+                0,
+                0
+              ],
+              "normal": [
+                0,
+                0,
+                1
+              ]
+            },
+            "color": "#aad7f2",
+            "tags": [],
+            "bom": [],
+            "dimension": "3D",
+            "nonReplicadSerialized": [],
+            "boundingBox": {
+              "min": [
+                -69.50000010000004,
+                -107.56664209358159,
+                -1e-7
+              ],
+              "max": [
+                121.5000001,
+                107.56664209358162,
+                12.0000001
+              ]
+            }
           }
         }
       ],
@@ -3599,7 +3748,7 @@
         {
           "atomType": "Molecule",
           "x": 0.1,
-          "y": 0.1,
+          "y": 0.2,
           "uniqueID": "id-1066",
           "name": "TriHoleSupport",
           "topLevel": false,
@@ -4663,7 +4812,8 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
@@ -4671,7 +4821,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 300
+              "ioValue": 0
             }
           ]
         },
@@ -4715,7 +4865,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 180
+              "ioValue": 240
             }
           ]
         },
@@ -4731,7 +4881,8 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "y-axis degrees",
@@ -4739,7 +4890,7 @@
             },
             {
               "name": "z-axis degrees",
-              "ioValue": 60
+              "ioValue": 120
             }
           ]
         },
@@ -5501,6 +5652,11 @@
       "ap2Name": "Shape 2",
       "ap1ID": "id-766",
       "ap2ID": "id-816"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-930",
+      "ap2ID": "id-2224"
     }
   ],
   "unitsKey": "MM",
