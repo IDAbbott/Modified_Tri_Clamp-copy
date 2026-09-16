@@ -1417,13 +1417,11 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -15,
-                  "currentEquation": "-15"
+                  "ioValue": -15
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 },
                 {
                   "name": "zDist",
@@ -1443,8 +1441,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 8,
-                  "currentEquation": "8"
+                  "ioValue": 8
                 }
               ]
             },
@@ -1492,8 +1489,7 @@
                 },
                 {
                   "name": "x-axis degrees",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "y-axis degrees",
@@ -1662,8 +1658,7 @@
                 },
                 {
                   "name": "y-axis degrees",
-                  "ioValue": 90,
-                  "currentEquation": "90"
+                  "ioValue": 90
                 },
                 {
                   "name": "z-axis degrees",
@@ -1703,8 +1698,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 10,
-                  "currentEquation": "10"
+                  "ioValue": 10
                 },
                 {
                   "name": "zDist",
@@ -1728,8 +1722,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "zDist",
@@ -2090,8 +2083,7 @@
                 },
                 {
                   "name": "yDist",
-                  "ioValue": 9.5,
-                  "currentEquation": "9.5"
+                  "ioValue": 9.5
                 },
                 {
                   "name": "zDist",
@@ -2127,8 +2119,7 @@
                 },
                 {
                   "name": "y length",
-                  "ioValue": 19,
-                  "currentEquation": "19"
+                  "ioValue": 19
                 }
               ]
             },
@@ -2660,6 +2651,21 @@
           "ap2ID": "id-7364"
         },
         {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-7361",
+          "ap2ID": "id-7356"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-7364",
+          "ap2ID": "id-7356"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-7367",
+          "ap2ID": "id-7361"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-778",
           "ap2ID": "id-827"
@@ -2708,21 +2714,6 @@
           "ap2Name": "retain",
           "ap1ID": "id-7262",
           "ap2ID": "id-6142"
-        },
-        {
-          "ap2Name": "Shape 2",
-          "ap1ID": "id-7361",
-          "ap2ID": "id-7356"
-        },
-        {
-          "ap2Name": "Shape 1",
-          "ap1ID": "id-7364",
-          "ap2ID": "id-7356"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-7367",
-          "ap2ID": "id-7361"
         }
       ],
       "fileTypeVersion": 1
@@ -3599,7 +3590,15 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [],
+                "nonReplicadSerialized": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
                 "boundingBox": {
                   "min": [
                     88.4999999,
@@ -4049,7 +4048,7 @@
         },
         {
           "atomType": "Molecule",
-          "x": 0,
+          "x": 0.1,
           "y": 0.5,
           "uniqueID": "id-1125",
           "name": "TriQuadHoles",
@@ -4081,8 +4080,8 @@
             },
             {
               "atomType": "Move",
-              "x": 0.3,
-              "y": 0.5,
+              "x": 0.4,
+              "y": 0.7,
               "uniqueID": "id-1131",
               "ioValues": [
                 {
@@ -4370,7 +4369,7 @@
             {
               "atomType": "Move",
               "x": 0.6,
-              "y": 0.3,
+              "y": 0.2,
               "uniqueID": "id-2703",
               "ioValues": [
                 {
@@ -4948,7 +4947,7 @@
         {
           "atomType": "Rotate",
           "x": 0.3,
-          "y": 0.7,
+          "y": 0.8,
           "uniqueID": "id-1307",
           "ioValues": [
             {
@@ -4972,7 +4971,7 @@
         {
           "atomType": "Rotate",
           "x": 0.3,
-          "y": 0.9,
+          "y": 1,
           "uniqueID": "id-1319",
           "ioValues": [
             {
@@ -5372,7 +5371,7 @@
         {
           "atomType": "Move",
           "x": 0.3,
-          "y": 0.6,
+          "y": 0.7,
           "uniqueID": "id-986",
           "ioValues": [
             {
@@ -5424,7 +5423,7 @@
         {
           "atomType": "Move",
           "x": 0.3,
-          "y": 0.5,
+          "y": 0.6,
           "uniqueID": "id-994",
           "ioValues": [
             {
