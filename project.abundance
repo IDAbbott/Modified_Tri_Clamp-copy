@@ -1251,7 +1251,8 @@
               "x": 0,
               "y": 0.1,
               "uniqueID": "id-5007",
-              "type": "number"
+              "type": "number",
+              "options": []
             }
           ],
           "allConnectors": [
@@ -3590,15 +3591,7 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     88.4999999,
@@ -4812,8 +4805,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -4881,8 +4873,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "y-axis degrees",
@@ -4973,7 +4964,7 @@
         {
           "atomType": "Rotate",
           "x": 0.3,
-          "y": 1,
+          "y": 0.9,
           "uniqueID": "id-1319",
           "ioValues": [
             {
